@@ -115,7 +115,7 @@ export const Home = () => {
                                     <div className='preview-title'>{post.title}</div>
                                     <div className='preview-contet'> {post.content.substring(0, 70) + "..."} </div>
                                     <div className='preview-date-author-container'>
-                                        <div className='preview-author'>{post.author}  </div>
+                                        <div className='preview-author'>By {post.author}  </div>
                                         <div className='preview-date'>{new Date(post.createdAt).toDateString()}</div>
                                     </div>
                                 </div>)
