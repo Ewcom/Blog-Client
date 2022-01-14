@@ -1,0 +1,174 @@
+.home {
+
+    background-color: #f2f3f4;
+    height: 100%;
+    position: relative;
+
+    header {
+
+        width: 100vw;
+        background-color: white;
+
+        h1 {
+            font-size: 8vw;
+            text-align: center;
+            font-weight: 300;
+        }
+
+        border-bottom: 1px solid #d8d8d8;
+    }
+
+    nav {
+        width: 100vw;
+        display: flex;
+        border-bottom: 1px solid #d8d8d8;
+        align-items: center;
+
+        .new-entry-modal {
+            flex: 1;
+
+            .new-button {
+                cursor: pointer;
+                margin: 5px;
+                padding: 5px;
+                margin-left: 20px;
+                color: #fff;
+                background-color: #5cb85c;
+                font-weight: 600;
+                font-size: 2rem;
+                border-radius: 4px;
+                outline: none;
+                border: none;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+            }
+
+        }
+
+        .filter {
+            padding: 10px;
+
+            .filter-search-container {
+                display: flex;
+
+
+                .filter-search {
+                    padding: 5px;
+                    box-sizing: border-box;
+                    font-size: 1rem;
+                    outline: none;
+                    background-color: #fff;
+                    width: 70%;
+                    border: 1px solid #4e9bff;
+
+                }
+
+                .search-icon {
+                    padding: 5px;
+                    background-color: #187bfd;
+                    color: white;
+                }
+            }
+
+            .filter-radio {
+                flex: 2;
+                padding-top: 3px;
+
+                input {}
+
+                span {
+                    padding-right: 12px;
+                }
+
+            }
+
+
+        }
+
+
+    }
+
+    .posts-container {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 70px;
+
+
+
+        .posts {
+            cursor: pointer;
+            width: 70%;
+
+
+            .post-preview {
+                background-color: white;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                border-bottom: 1px solid #d8d8d8;
+                padding: 7px;
+                box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+
+
+
+                .preview-title {
+                    padding-bottom: 5px;
+
+                    font-size: 1.6rem;
+                    font-weight: 600;
+                }
+
+
+                .preview-content {
+                    font-size: 0.6rem;
+                }
+
+                .preview-date-author-container {
+                    padding-top: 5px;
+                    display: flex;
+
+                    .preview-author {
+
+                        font-size: 0.7rem;
+                        font-weight: 900;
+                        padding-right: 5px;
+
+                    }
+
+                    .preview-date {
+                        font-size: 0.7rem;
+                        font-weight: 500;
+
+                    }
+
+                }
+
+
+
+            }
+
+        }
+
+    }
+
+    footer {
+        bottom: 0px;
+        position: relative;
+        width: 100%;
+        height: 70px;
+        background-color: rgb(26, 26, 26);
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+
+
+        color: white;
+
+
+
+
+    }
+
+}
