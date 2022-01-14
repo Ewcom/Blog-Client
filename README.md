@@ -20,3 +20,7 @@ then, after the server is running (default port 8080)
 # start the api server
 
     npm start
+<<<<<<< HEAD
+=======
+
+>>>>>>> f60d3e8d5e391d8a8301f4a3e368e6faaf4b4a55
