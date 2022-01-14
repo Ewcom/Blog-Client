@@ -1,6 +1,6 @@
 # Blog-Client
 
-instruction for the blog
+instructions for the blog
 
 ## instructions
 
