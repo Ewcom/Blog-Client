@@ -17,7 +17,7 @@ then, after the server is running (default port 8080)
     npm install
     
     
-# start the api server
+# start the Client
 
     npm start
 
