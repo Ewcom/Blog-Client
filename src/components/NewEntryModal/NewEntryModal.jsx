@@ -12,31 +12,24 @@ export const NewEntryModal = ({ isModalOpen, onClose }) => {
     const [title, setTitle] = useState(null)
     const [author, setAuthor] = useState(null)
     const [content, setContent] = useState(null)
-    const [isSubmited, setSubmited] = useState(false)
 
 
 
-
+    //onSubmit new entry
     async function handleSubmit() {
-
-        const body = { title, author, content }
+        const body  = { title, author, content }
 
         try {
 
             await axios.post('http://localhost:8080/api/entry/new', body)
-
-            setSubmited(true)
-            onClose()
+            onClose()      
 
         } catch (e) {
 
             console.log(e)
         }
 
-
-
     }
-
 
 
     return ReactDom.createPortal(

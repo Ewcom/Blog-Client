@@ -73,8 +73,8 @@
 
             .new-submit {
                 cursor: pointer;
-
-                margin-top: 10px;
+                margin-bottom: 5px;
+                margin-top: 15px;
                 padding: 5px;
                 color: #fff;
                 background-color: #5cb85c;
@@ -84,6 +84,10 @@
                 outline: none;
                 border: none;
                 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            }
+
+            .new-submit:hover{
+                background-color: #38b438;
             }
 
         }
